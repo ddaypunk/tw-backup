@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+<fullyQualifiedTypeName name="android.os.Handler.Callback"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="ddaypunk.dev.alldice.R.id"/>
+<fullyQualifiedTypeName name="ddaypunk.dev.emilyssong.R.raw"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="ddaypunk.dev.javabook.R.id"/>
+<fullyQualifiedTypeName name="android.view.KeyEvent"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="ddapypunk.dev.manyapps.R.id"/>
+<fullyQualifiedTypeName name="android.media.MediaPlayer"/>
+<fullyQualifiedTypeName name="android.webkit.WebView"/>
+<fullyQualifiedTypeName name="ddaypunk.dev.androidreference.R.id"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
+<fullyQualifiedTypeName name="android.text.TextWatcher"/>
+<fullyQualifiedTypeName name="android.content.SharedPreferences"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.BitmapDrawable"/>
+<fullyQualifiedTypeName name="android.graphics.Canvas"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap.Config"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.Data"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="ddaypunk.dev.simplerpggen.R.id"/>
+</qualifiedTypeNameHistroy>

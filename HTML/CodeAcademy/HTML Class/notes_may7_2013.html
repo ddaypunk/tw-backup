@@ -1,0 +1,109 @@
+<!-- Notes May 7, 2013 -->
+This is the General html of a webpage
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1></h1>
+		<p></p>
+	</body>
+</html>
+
+Style augments
+style="color:[color]"
+style="font-family:[familyname]"
+style="font-size:[#]px"
+style="text-align:[left,right,center]"
+style="background-color:[color]"
+
+ex. multiple styles
+
+<p style="color:red;font-size:12px;font-family:Verdana;text-align:center">blah</p>
+
+font styles
+bold = <strong></strong>
+italics = <em></em>
+
+<table border="1px">
+	<thead>
+		<tr>
+			<th colspan="2">Column Span Header</th>
+		</tr>
+		<tr>
+			<th>Header1</th>
+			<th>Header2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<div></div> Divide page up
+<span></span> Used within tags to change styles, can be combined with CSS
+
+<form>
+</form> Used to create forms, where input is received from the user and sent to sterver.  Input can be from the input tag, or textarea tags (resizable)
+
+<!-- Form elements -->
+	<input type='text'> creates an input box that can be named and have default value (attribute) assigned
+	<input type='radio'> creates a radio type input
+	<input type='checkbox'> creates a checkbox type input
+	<input type='checkbox' checked> creates a checkbox that is checked by default
+	<input type='submit'> Create a submit button
+	<textarea></textarea> creates a resizable text box that can have default value between tags
+
+<!-- CSS -->
+<style> - goes in your headER area vs in a stylesheet
+	p { color: purple;} - will make all paragraphs show as purple text
+</style>
+
+or instead
+
+<link type="text/css" rel="stylesheet" href="filename.css"/> - link to an included stylesheet for css
+
+<!-- class and id selectors -->
+.class {color:purple;}
+#id {color:purple;}
+
+<!-- pseudo-selectors -->
+selector:pseudo-selector
+
+a:link {} - unvisited link
+a:visited - visited link
+a:hover - link you are hovering over with mouse
+a:first-child - only apply to first child of the selector type
+a:nth-child(n) - only apply to nth child of the nested tree element
+
+<!-- Display methods -->
+
+p {display:none,inline,block,inline-block} - change how the element displays. inline-block is good for navigation bars
+
+p {margin:auto,2px,etc;} auto will place equal margin on left and right
+p {margin-top:;} - adjust only the top margin (can be used with left, right, bottom)
+
+OR
+
+p{margin: x y z a;} to set all margins at once, variables in pixels
+
+the above words with the keyword "padding" as well
+
+<!-- floating methods -->
+p {float:left,right;} float the element so that other elements are aware of it
+
+p {clear:left, right, both;} element will move below any floating elements on the left side of the page
+
+<!-- advanced positioning -->
+
+p {position:absolute,relative,fixed;} - absolute will position it in relation to the first parent without static, if there are none, its based on html 
+
+This allows you to position elements based on other elements instead of the page itself
+
+relative will position something relative to where it would have landed if it just had the default static positioning
+
+fixed anchors it to the page, and scrolling will not affect it

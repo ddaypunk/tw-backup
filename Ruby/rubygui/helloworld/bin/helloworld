@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+# -*- mode: ruby -*-
+
+load File.expand_path(File.join('..', 'app', 'main.rb'), File.dirname(__FILE__))

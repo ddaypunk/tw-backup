@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple RPG Gen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hintPlayerName">Player Name</string>
+    <string name="headCharInfo">Character Info</string>
+    <string name="hintCharName">Character Name</string>
+
+    <string-array name="genderList">
+        <item>Male</item>
+        <item>Female</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string name="promptGenderName">Select Gender...</string>
+    <string name="hintDefiningCharacteristics">Defining Characteristics</string>
+    <string name="hintCharWeight">Weight</string>
+    <string name="hintCharHeight">Height</string>
+
+    <string-array name="raceList">
+        <item>Human</item>
+        <item>Dwarf</item>
+        <item>Gobber</item>
+        <item>Iosian</item>
+        <item>Nyss</item>
+        <item>Ogrun</item>
+        <item>Trollkin</item>
+    </string-array>
+
+    <string name="promptRaceList">Select Race...</string>
+    <string name="nextButton1">Save &amp; Continue -&gt;</string>
+    <string name="title_activity_secondary">Class Specifics</string>
+
+    <string-array name="archetypeList">
+        <item>Gifted</item>
+        <item>Intellectual</item>
+        <item>Mighty</item>
+        <item>Skilled</item>
+    </string-array>
+    <string-array name="careerList">
+        <item>Alchemist</item>
+        <item>Arcane Mechanik</item>
+        <item>Arcanist</item>
+        <item>Aristocrat</item>
+        <item>Bounty Hunter</item>
+        <item>Cutthroat</item>
+        <item>Duelist</item>
+        <item>Explorer</item>
+        <item>Fell Caller</item>
+        <item>Field Mechanik</item>
+        <item>Gun Mage</item>
+        <item>Highwayman</item>
+        <item>Investigator</item>
+        <item>Iron Fang</item>
+        <item>Knight</item>
+        <item>Mage Hunter</item>
+        <item>Man-at-Arms</item>
+        <item>Military Officer</item>
+        <item>Pirate</item>
+        <item>Priest (Morrow or Menoth)</item>
+        <item>Rifleman</item>
+        <item>Soldier</item>
+        <item>Sorcerer</item>
+        <item>SPy</item>
+        <item>Stormblade</item>
+        <item>Thief</item>
+        <item>Trencher</item>
+        <item>Warcaster</item>
+    </string-array>
+
+    <string name="promptArchetype">Select Archetype...</string>
+    <string name="promptCareer1">Select First Career...</string>
+    <string name="promptCareer2">Select Second Career...</string>
+    <string name="headCharInfo2">Class Selection Screen</string>
+    <string name="title_activity_final">Your Character</string>
+    <string name="result1">Player Name: </string>
+    <string name="result2">Character Name: </string>
+    <string name="result3">Gender: </string>
+    <string name="result4">Defining \nCharacteristics: </string>
+    <string name="result5">Height: </string>
+    <string name="result6">Weight: </string>
+    <string name="result7">Race: </string>
+    <string name="result8">Archetype: </string>
+    <string name="result9">Careers: </string>
+
+</resources>

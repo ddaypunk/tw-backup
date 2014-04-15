@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C88185D1150106DA00D95DD5 /* barista_extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barista_extras.h; sourceTree = "<group>"; };
+		C88185D2150106DA00D95DD5 /* barista-matic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "barista-matic.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C88185C8150106C000D95DD5 = {
+			isa = PBXGroup;
+			children = (
+				C88185D4150108B400D95DD5 /* Header Files */,
+				C88185D3150108A600D95DD5 /* Source */,
+			);
+			sourceTree = "<group>";
+		};
+		C88185D3150108A600D95DD5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C88185D2150106DA00D95DD5 /* barista-matic.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C88185D4150108B400D95DD5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88185D1150106DA00D95DD5 /* barista_extras.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C88185CA150106C000D95DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C88185CD150106C000D95DD5 /* Build configuration list for PBXProject "Barista-matic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C88185C8150106C000D95DD5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C88185CF150106C100D95DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C88185D0150106C100D95DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88185CD150106C000D95DD5 /* Build configuration list for PBXProject "Barista-matic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88185CF150106C100D95DD5 /* Debug */,
+				C88185D0150106C100D95DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88185CA150106C000D95DD5 /* Project object */;
+}

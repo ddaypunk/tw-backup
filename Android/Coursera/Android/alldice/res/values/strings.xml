@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">alldice</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="roll_button">Roll!!!</string>
+    <string-array name="die_list">
+        <item >d2 (coin flip)</item>
+        <item >d4</item>
+        <item >d6</item>
+        <item >d8</item>
+        <item >d10</item>
+        <item >d20</item>
+        <item >d100 (%)</item>
+    </string-array>
+    <string name="die_drop">Choose number of sides…</string>
+    <string name="main_message">Please select a die type from the drop down and click ROLL!!!</string>
+
+</resources>

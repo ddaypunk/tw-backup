@@ -1,0 +1,22 @@
+INSTUPrpg_classes
+/Users/adelso/Documents/Development/Code/Python/IKRPG Gen/rpg_classes.py
+INFOS:&&3|1|2|0&&1|3|2|0&&2|4|2|3&&3|5|2|6&&3|7|2|6&&2|8|2|3&&1|9|2|0&&2|4|2|9&&3|10|2|11&&3|12|2|11&&3|13|2|11&&3|14|2|11&&3|15|2|11&&3|16|2|11&&2|17|2|9&&2|18|2|0&&3|19|2|0
+checkOS_clearscreen=18
+playerName=15
+__author__=1
+stats=7
+Race=3
+printStats=8
+Race.__init__=6
+charWeight=14
+charHeight=13
+Character=9
+character=19
+printCharacter=17
+__init__=4
+name=5
+charName=10
+Character.__init__=11
+charSex=12
+rpg_classes=2
+charRace=16

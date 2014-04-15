@@ -1,0 +1,15 @@
+# Filename: tabs.kv
+# Contains kivy ui language to build the first tab
+
+<Tabs@TabbedPanel>:
+	TabbedPanelItem:
+    	text: 'General Information'
+
+<TabArea@FloatLayout>:
+    size_hint: .5, .5
+    pos_hint: {'center_x': .5, 'center_y': .5}
+    do_default_tab: False
+
+    Tabs:
+    	size_hint: None, None
+    	

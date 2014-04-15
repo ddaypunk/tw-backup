@@ -1,0 +1,255 @@
+#-----------#
+
+#blastoff counter
+def countdown(num):
+    while num>0:
+        print num
+    print "Blastoff!"
+
+#-----------#
+
+#median
+def bigger(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+
+def biggest(a,b,c):
+    return bigger(a,bigger(b,c))
+
+def median(a,b,c):
+    high = biggest(a,b,c)
+    if a == high:
+        return bigger (b,c)
+    else:
+        if b == high:
+            return bigger (a,c)
+        return bigger (a,b)
+
+#-----------#
+
+#find last from 2.6 homework
+
+def find_last(search_str, target_str):
+    pos1 = -1
+    pos2 = 0 #remove this line as its not needed
+    while pos2 > -1:
+        pos1 = search_str.find(target_str, pos1+1)
+        pos2 = search_str.find(target_str, pos1+1) #remove this line and make pos1        
+        if pos1 == -1:
+            return -1 #return pos2
+            #pos2 = pos1
+    return pos1
+
+    #their code
+
+def find_last(a,b):
+    pos2 = -1
+    while True:
+        pos = a.find(b, pos2+1)
+        if pos == -1:
+            return pos2
+        pos2 = pos1
+
+#-----------#
+#multiplication table
+
+def print_multiplication_table(n):
+    #set iterators
+    i=1
+    j=1
+    
+    #use nested whiles to control the flow and print all output
+    while (i <= n):
+        while (j <= n):
+            print str (i) + " * " + str(j) + " = " + str(i*j)
+            j=j+1 #increase j so that next run is i * j+1
+        j=1 #reset j to 1 after each inner loop completes
+        i=i+1 #add one to i after each inner loop completes to print i+1 * j
+
+#-----------#
+
+#compare first letter of list element and increment if equal to certain character
+
+def measure_udacity(lister):
+    total = 0
+    for looper in lister:
+        if looper[0] == "U":
+            total = total + 1
+            
+    return total
+
+#-----------#
+
+#sum all numerical elements in a list
+
+def sum_all(lister):
+    total = 0
+    for looper in lister:
+        total = total + looper
+
+    return total
+
+#------------#
+
+#find element while implementation
+
+def find_element(p,t):
+    i = 0
+    while i < len(p):
+        if p[i] == t:
+            return i
+        i = i + 1
+    return -1
+
+#find element for implementation
+
+def find_element(p,t):
+    i = 0
+    for e in p
+        if e == t:
+            return i
+        i = i + 1
+    return -1
+
+#find element index implementation with use of "in" operator
+
+def find_element(lister, query):
+    #if it is in the list, return the first location
+    if query in lister:
+        return lister.index(query)
+    #otherwise, return the error code
+    else:
+        return -1
+
+#reverse using "not in"
+def find_element(lister, query):
+    if query not in lister:
+        return -1
+    return lister.index(query)
+
+#-------------#
+
+#Union using find_element
+
+def find_element(lister, query):
+    if query not in lister:
+        return -1
+    return lister.index(query)
+
+def union(a, b):
+    i=0
+    
+    while i < len(b):
+        if find_element(a,b[i]) == -1:
+            a.append(b[i])
+        i = i+1
+
+#union using for loop
+
+def union(a,b):
+    for i in b:
+        if e not in p:
+            p.append(e)
+
+#-------------#
+
+#Detects symetric lists, written without any help of the answer video
+
+def symmetric(p):
+    if p == []: #check for empty list, its symetric
+        return True
+    
+    i = 0 #outer while loop iterator
+    the_truth = True #set flag initially to True
+    length_0 = len(p[0]) #set a control length
+
+    while i < len(p): #while less than overall list length, grab row
+    
+        j = 0
+        a = p[i]
+        b = []
+    
+        length_i = len(p[i]) #grab length of the element
+        if length_0 != length_i: #check for next instance where lengths are not the same
+            return False
+    
+        while j < len(p): #while less than overall list length, build the column into a list
+    
+            b.append(p[j][i])
+            j = j+1
+    
+        if a != b or the_truth == False: #if the lists are not the same or already False, continue to have False set
+            the_truth = False
+    
+        i = i+1
+    
+    return the_truth #if you haven't returned already, return the flag
+#end proc
+
+
+#----------#
+
+#Add to index (useful for crawler)
+
+def add_to_index(index,keyword,url):
+    for e in index: #search the current index for the keyword
+        if e[0] == keyword: #if found, append URL to it instead of new item creation
+            e[1].append(url)
+            return
+    #if keyword was not found, create new index entry
+    index.append([keyword,[url]])
+#end proc
+
+#------------#
+def convert_seconds(seconds): #returns hours minutes and seconds within a large number of seconds
+    hours = seconds / 3600
+    minutes = (seconds / 60) % 60
+    seconds = seconds%60
+    
+    return str(int(hours)) + " hours, " + str(int(minutes)) + " minutes, " + str(seconds) + " seconds"
+
+    #did not work for all test cases
+
+###using in line if's###
+
+def convert_seconds(seconds):
+    hours = int(seconds / 3600)
+    minutes = int((seconds / 60)%60)
+    seconds = seconds %60
+    
+    hours_string = " hours, "
+    minutes_string = " minutes, "
+    seconds_string = " second"
+    
+    #below were used before Tuan suggested inline ifs
+    #if hours == 1:
+    #   hours_string = " hour, "
+    #if minutes == 1:
+    #    minutes_string = " minute, "
+    #if seconds != 1:
+    #    seconds_string = " seconds"
+        
+    
+    return str(hours) + (" hour, ", " hours, ")[hours != 1] + str(minutes) + (" minute, ", " minutes, ")[minutes != 1] + str(seconds) + (" second", " seconds")[seconds != 1]
+
+#------------#
+
+speed_of_light = 300000. # km per second
+
+def speed_fraction(tr,dist): #returns the fraction of the speed of light
+    rt = dist*2.0
+    km_ms = rt/tr
+    km_s = (km_ms) * 1000
+    return (km_s/speed_of_light)
+
+#------------#
+
+def find_element(lister, query):
+    if query not in lister:
+        return -1
+    return lister.index(query)
+
+def count_words(s): #counts words in a string split by spaces
+    return len(s.split())

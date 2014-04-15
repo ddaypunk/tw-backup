@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Web Reference</string>
+    <string name="title_activity_ref_web">Reference Webview</string>
+    <string name="button1">Android Developers Reference</string>
+    <string name="button2">Android Asset Studio</string>
+    <string name="button3">Android Device Screen Density List</string>
+    <string name="button4">Android Developers Group</string>
+    <string name="button5">Stackoverflow: Android Articles List</string>
+    <string name="img1desc">android banner</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coursera_ex2</string>
+    <string name="action_settings">Settings</string>
+    <string name="caption">Dark Jedi, also known as "Fallen" Jedi, were Force-sensitives, frequently former Jedi, who chose to deny the light side of the Force or follow the dark side. Although "Dark Jedi" originally referred to a Jedi who had fallen to the dark side, it could also refer to uninitiated Force-sensitives who received no Jedi training but began their careers under another Dark Jedi. Others were simply dark-side users who did not follow the teachings of the Sith or other dark side organizations. In some cases, Dark Jedi also included "artificial" Force-sensitives who served the dark side, such as the Reborn and the Shadowtroopers. The first Dark Jedi was believed to be Xendor, who was the first member of the Jedi Order to fall. Other forerunners included Ajunta Pall and others who, after the Hundred-Year Darkness, were exiled from Galactic Republic space and became the ancient progenitors of the Sith Lords. Ultimately, the title became something of a blanket term for darksiders who could not be classified as belonging to any specific dark side organization. </string>
+    <string name="dark_jedi_img">Picture of Dark Jedi Quinlan Voss</string>
+
+</resources>

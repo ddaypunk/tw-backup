@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/resultslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    	<TextView
+        	android:id="@+id/resultView1"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result1" />
+    	
+    	<TextView
+        	android:id="@+id/resultView2"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result2" />
+    	    	
+    	<TextView
+        	android:id="@+id/resultView3"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result3" />
+    	    	    	
+    	<TextView
+        	android:id="@+id/resultView4"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result4" />
+    	    	    	    	
+    	<TextView
+        	android:id="@+id/resultView5"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result5" />
+    	
+    	<TextView
+        	android:id="@+id/resultView6"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result6" />
+
+    	<TextView
+        	android:id="@+id/resultView7"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result7" />
+   
+    	<TextView
+        	android:id="@+id/resultView8"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result8" />
+    	
+    	<TextView
+        	android:id="@+id/resultView9"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/result9" />
+    	
+     </LinearLayout>
+
+</RelativeLayout>

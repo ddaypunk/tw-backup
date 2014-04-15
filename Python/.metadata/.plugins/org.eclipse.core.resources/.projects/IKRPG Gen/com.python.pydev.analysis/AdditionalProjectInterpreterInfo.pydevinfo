@@ -1,0 +1,38 @@
+-- VERSION_3
+-- START DISKCACHE
+/Users/adelso/Documents/Development/Code/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/IKRPG Gen/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+config|0|/Users/adelso/Documents/Development/Code/Python/IKRPG Gen/config.py
+ikgenmodules|0|/Users/adelso/Documents/Development/Code/Python/IKRPG Gen/ikgenmodules.py
+main|0|/Users/adelso/Documents/Development/Code/Python/IKRPG Gen/main.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=config
+1=ikgenmodules
+3=main
+-- END DICTIONARY
+-- START TREE 1
+10
+__a|3|__author__!11@__author__!19@__author__!27@
+cha|1|charName!27@
+che|1|checkLevelName!10@
+cho|1|choice!27@
+exp|2|experiencePts!27@experienceLevel!27@
+get|1|GetRaceStats!10@
+hor|2|horizPipe!19@horizLine!19@
+pri|2|printTitle!10@printRaceList!10@
+rac|2|raceDict!19@raceChoiceStats!27@
+sta|1|statsList!19@
+-- END TREE
+-- START TREE 2
+8
+__i|0|
+cha|0|
+che|0|
+i|0|
+nam|0|
+pla|0|
+pri|0|
+sta|0|
+-- END TREE

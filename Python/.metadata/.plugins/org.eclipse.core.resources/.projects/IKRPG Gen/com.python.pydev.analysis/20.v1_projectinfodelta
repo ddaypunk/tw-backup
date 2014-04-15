@@ -1,0 +1,9 @@
+INSTUPikgenmodules
+/Users/adelso/Documents/Development/Code/Python/IKRPG Gen/ikgenmodules.py
+INFOS:&&3|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0
+printRaceList=4
+__author__=1
+printTitle=3
+checkLevelName=5
+ikgenmodules=2
+GetRaceStats=6

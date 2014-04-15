@@ -1,0 +1,28 @@
+/*setting up hrml to use script, in header place:*/
+
+<script type="text/javascript" src="src"></script>
+
+/*ex use of jQuery*/
+
+var paragraph = $('p');
+
+/*starting jQuery line should usually be what is below, is the doc ready? This is also the basic flow
+of a jQuery script*/
+$(document).ready(function() {
+	jQuery magic;
+});
+
+/*Quick example: causes a header to slide down (if header is in CSS/HTML*/
+$(document).ready(function() {
+    var div = $('div').slideDown('slow');
+});
+
+/*Project for the class was to animate a button to fade in and out based on mouse cursor*/
+$(document).ready(function(){
+    $('div').mouseenter(function(){
+        $('div').fadeTo('fast', 1); 
+    });
+    $('div').mouseleave(function(){
+        $('div').fadeTo('fast', 0.5);
+    });
+});

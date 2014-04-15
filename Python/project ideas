@@ -1,0 +1,27 @@
+Python project ideas (command line based):
+
+1. A simple diary to store all your notes
+2. An Address book to store/edit/search/delete address,phone,email of friends
+3. Simple financial app to manage the income/expense
+4. create all these using text file as storage and extend to use mysql as storage
+5. twitter client in commandline
+6. script to send email to all mail ids in a text file
+7. webscrap a site automate its operations
+8. A simple RSS reader in commandline
+9. process access.log of apache and extract details from it.
+10. commandline weather?
+11. commandline spotify (pytify lib)
+
+Learn a GUI library for Python and then make the above into GUI applications.
+
+Learn a web framework and then implement the above as web apps
+
+VerifyError: Error #1014: Class com.trustwave.search.view::PeopleSearchView could 
+
+ReferenceError: Error #1065: Variable UserDetails_disabledIcon is not defined.
+
+ReferenceError: Error #1065: Variable Icons_activeIcon is not defined.
+
+ReferenceError: Error #1065: Variable UserDetails_lockOpenIcon is not defined.
+
+

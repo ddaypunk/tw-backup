@@ -1,0 +1,15 @@
+INDEX VERSION 1.126+/Users/adelso/Documents/Development/Code/Coursera/Android/.metadata/.plugins/org.eclipse.jdt.core
+1059690071.index
+333904509.index
+1737425538.index
+1277678974.index
+1113441501.index
+2744942395.index
+574890818.index
+2585918779.index
+1667034108.index
+1945686740.index
+2183518866.index
+4250027552.index
+234884985.index
+1882377197.index

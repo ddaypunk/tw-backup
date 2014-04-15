@@ -1,0 +1,88 @@
+__author__ = "Andrew Delso"
+
+
+import config
+import os
+
+"""
+Class: Race
+Use:  Structure of a Race to be used with characters
+Constructor: Takes user choice and then accesses the correct class
+"""
+class Race:
+	def __init__(self):
+		self.name = raw_input("Please enter your desired character race: ")
+		self.stats = config.raceDict[self.name]
+
+	def printStats(self):
+		print "\n" + config.horizPipe
+		if len(self.name) < 6:
+			print "|\t\t\t          %s\t\t\t\t\t|" % name.upper()
+		else:
+			print "|\t\t\t          %s\t\t\t\t|" % name.upper()
+			print config.horizPipe
+			# for each race print the table headers
+			print "|\*|*|*/|    Starting\t|     Hero\t|    Veteran\t|     Epic\t|"
+			print "|/*|*|*\|    Value\t|     Limit\t|    Limit\t|     Limit\t|"
+			print config.horizLine
+			#loop through and print out the stat values with row headers for each race
+			i = 0
+			#**** START HERE**** This needs to be adjusted (this method is really not needed though)
+		for rank,stat_row in self.stats
+			print "|  %s\t" % ,
+			#make sure to check the stats for special situations
+			print "|       %s\t" % checkStat(statlist["Start"][i]),
+			print "|       %s\t" % checkStat(statlist["Hero"][i]),
+			print "|       %s\t" % checkStat(statlist["Veteran"][i]),
+			print "|       %s\t|" % checkStat(statlist["Epic"][i])
+			
+			i += 1
+			#close the table and print sub-text
+		print config.horizLine
+		print " '*' = Only characters with the Gifted archetype have the Arcane stat."
+		print " '-' = Race does not have the ability to take the Gifted Archetype."
+
+"""
+Class: Character
+Use:  The main class where all character information is stored
+Constructor: Takes user input to begin building the character
+"""
+class Character:
+
+	def __init__(self):
+		#might be able to break these out into its own class of "Description" or something
+		self.charName = raw_input("Please enter your desired character name: ")
+		self.charSex = raw_input("Please enter your desired character gender: ")
+		self.charHeight = raw_input("Please enter your desired character height (in Kilos): ")
+		self.charWeight = raw_input("Please enter your desired character weight (in Meters): ")
+		self.playerName = raw_input("Please enter your, the player's, name: ")
+		self.charRace = Race()
+
+	def printCharacter(self):
+		print "=========================================="
+		print "|              CHARGEN v0.1              |"
+		print "| Iron Kingdoms RPG: Standard Char Sheet |"
+		print "=========================================="
+		print " "
+		print "Character Name: \t" + self.charName
+		print "Gender: \t\t" + self.charSex
+		print "Height: \t\t" + self.charHeight + " kg"
+		print "Weight: \t\t" + self.charWeight + " m"
+		print "Player Name: \t\t" + self.playerName
+		print "Character Race: \t" + self.charRace.name
+
+"""***MAIN PROGRAM METHODS***"""
+def checkOS_clearscreen():
+	if os.name == 'nt':
+		os.system('cls')
+	else:
+		os.system('clear')
+
+"""***MAIN***"""
+character = Character()
+
+character.printCharacter()
+print character.charRace.stats
+
+raw_input("Press enter to continue and clear screen")
+checkOS_clearscreen()

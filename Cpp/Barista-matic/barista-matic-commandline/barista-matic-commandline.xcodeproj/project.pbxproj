@@ -1,0 +1,212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B0B14A15096C2700238BD3 /* barista_matic_commandline.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8B0B14915096C2700238BD3 /* barista_matic_commandline.1 */; };
+		C8B0B15115096CA600238BD3 /* barista-matic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B0B15015096CA600238BD3 /* barista-matic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8B0B14115096C2700238BD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C8B0B14A15096C2700238BD3 /* barista_matic_commandline.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8B0B14315096C2700238BD3 /* barista-matic-commandline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "barista-matic-commandline"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B0B14915096C2700238BD3 /* barista_matic_commandline.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = barista_matic_commandline.1; sourceTree = "<group>"; };
+		C8B0B15015096CA600238BD3 /* barista-matic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "barista-matic.cpp"; sourceTree = "<group>"; };
+		C8B0B15215096CB300238BD3 /* barista_extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barista_extras.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B0B14015096C2700238BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8B0B13815096C2700238BD3 = {
+			isa = PBXGroup;
+			children = (
+				C8B0B14615096C2700238BD3 /* barista-matic-commandline */,
+				C8B0B14415096C2700238BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B0B14415096C2700238BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B0B14315096C2700238BD3 /* barista-matic-commandline */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B0B14615096C2700238BD3 /* barista-matic-commandline */ = {
+			isa = PBXGroup;
+			children = (
+				C8B0B15015096CA600238BD3 /* barista-matic.cpp */,
+				C8B0B15215096CB300238BD3 /* barista_extras.h */,
+				C8B0B14915096C2700238BD3 /* barista_matic_commandline.1 */,
+			);
+			path = "barista-matic-commandline";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B0B14215096C2700238BD3 /* barista-matic-commandline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B0B14D15096C2700238BD3 /* Build configuration list for PBXNativeTarget "barista-matic-commandline" */;
+			buildPhases = (
+				C8B0B13F15096C2700238BD3 /* Sources */,
+				C8B0B14015096C2700238BD3 /* Frameworks */,
+				C8B0B14115096C2700238BD3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "barista-matic-commandline";
+			productName = "barista-matic-commandline";
+			productReference = C8B0B14315096C2700238BD3 /* barista-matic-commandline */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B0B13A15096C2700238BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C8B0B13D15096C2700238BD3 /* Build configuration list for PBXProject "barista-matic-commandline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8B0B13815096C2700238BD3;
+			productRefGroup = C8B0B14415096C2700238BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B0B14215096C2700238BD3 /* barista-matic-commandline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B0B13F15096C2700238BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B0B15115096CA600238BD3 /* barista-matic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8B0B14B15096C2700238BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C8B0B14C15096C2700238BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8B0B14E15096C2700238BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8B0B14F15096C2700238BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B0B13D15096C2700238BD3 /* Build configuration list for PBXProject "barista-matic-commandline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B0B14B15096C2700238BD3 /* Debug */,
+				C8B0B14C15096C2700238BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B0B14D15096C2700238BD3 /* Build configuration list for PBXNativeTarget "barista-matic-commandline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B0B14E15096C2700238BD3 /* Debug */,
+				C8B0B14F15096C2700238BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B0B13A15096C2700238BD3 /* Project object */;
+}

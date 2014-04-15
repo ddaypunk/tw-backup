@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarmackStroustrup</string>
+    <string name="action_settings">Settings</string>
+    <string name="programmer_name1">John Carmack</string>
+    <string name="programmer_name2">Bjarne Stroustrup</string>
+    <string name="programmer_cdescrip1">John Carmack portrait</string>
+    <string name="programmer_cdescrip2">Bjarne Stroustrup portrait</string>
+    <string name="programmer_caption1">
+        One of the most influential innovations to come along with computers is the rise of modern video games. John Carmack founded id Software, and created some of the most influential video games in what is the fastest growing entertainment medium in the United States. In 2011 the video game industry as a whole was valued at $65 billion. Carmack’s influence on this industry has been widespread as id Software’s Wolfenstein 3d set codified the first person shooter genre (one of the most popular video game genres) in 1992.
+    </string>
+    <string name="programmer_caption2">
+        This Danish computer scientist earned his Ph.D. from Cambridge and is the inventor of the C++ programming language. C++ is one of the most widely used, powerful programming languages in the world. Stroustrup was the head of AT&amp;T Lab’s programming research and development wing from its inception until the year 2002. He is a fellow of both ACM and IEEE, and a Distinguished Professor at Texas A&amp;M University.
+    </string>
+
+</resources>

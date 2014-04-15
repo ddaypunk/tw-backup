@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B0B16515096E1500238BD3 /* Stat_Roller.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8B0B16415096E1500238BD3 /* Stat_Roller.1 */; };
+		C8B0B16C15096E2C00238BD3 /* Stat_Roller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B0B16B15096E2C00238BD3 /* Stat_Roller.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8B0B15C15096E1500238BD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C8B0B16515096E1500238BD3 /* Stat_Roller.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8B0B15E15096E1500238BD3 /* Stat Roller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stat Roller"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B0B16415096E1500238BD3 /* Stat_Roller.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stat_Roller.1; sourceTree = "<group>"; };
+		C8B0B16B15096E2C00238BD3 /* Stat_Roller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stat_Roller.cpp; sourceTree = "<group>"; };
+		C8B0B16D15096EB200238BD3 /* dice_roller_extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dice_roller_extras.h; sourceTree = "<group>"; };
+		C8B0B16E1509723B00238BD3 /* characterclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = characterclass.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B0B15B15096E1500238BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8B0B15315096E1500238BD3 = {
+			isa = PBXGroup;
+			children = (
+				C8B0B16E1509723B00238BD3 /* characterclass.h */,
+				C8B0B16115096E1500238BD3 /* Stat Roller */,
+				C8B0B15F15096E1500238BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B0B15F15096E1500238BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B0B15E15096E1500238BD3 /* Stat Roller */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B0B16115096E1500238BD3 /* Stat Roller */ = {
+			isa = PBXGroup;
+			children = (
+				C8B0B16B15096E2C00238BD3 /* Stat_Roller.cpp */,
+				C8B0B16415096E1500238BD3 /* Stat_Roller.1 */,
+				C8B0B16D15096EB200238BD3 /* dice_roller_extras.h */,
+			);
+			path = "Stat Roller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B0B15D15096E1500238BD3 /* Stat Roller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B0B16815096E1500238BD3 /* Build configuration list for PBXNativeTarget "Stat Roller" */;
+			buildPhases = (
+				C8B0B15A15096E1500238BD3 /* Sources */,
+				C8B0B15B15096E1500238BD3 /* Frameworks */,
+				C8B0B15C15096E1500238BD3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stat Roller";
+			productName = "Stat Roller";
+			productReference = C8B0B15E15096E1500238BD3 /* Stat Roller */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B0B15515096E1500238BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C8B0B15815096E1500238BD3 /* Build configuration list for PBXProject "Stat Roller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8B0B15315096E1500238BD3;
+			productRefGroup = C8B0B15F15096E1500238BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B0B15D15096E1500238BD3 /* Stat Roller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B0B15A15096E1500238BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B0B16C15096E2C00238BD3 /* Stat_Roller.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8B0B16615096E1500238BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C8B0B16715096E1500238BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8B0B16915096E1500238BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8B0B16A15096E1500238BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B0B15815096E1500238BD3 /* Build configuration list for PBXProject "Stat Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B0B16615096E1500238BD3 /* Debug */,
+				C8B0B16715096E1500238BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B0B16815096E1500238BD3 /* Build configuration list for PBXNativeTarget "Stat Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B0B16915096E1500238BD3 /* Debug */,
+				C8B0B16A15096E1500238BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B0B15515096E1500238BD3 /* Project object */;
+}
